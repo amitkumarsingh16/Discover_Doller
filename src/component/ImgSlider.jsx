@@ -22,7 +22,7 @@ const Crousel = () => {
 };
   return (
     <>
-    <div style={{marginTop:"1em"}}>
+    <div style={{marginTop:"0em"}}>
       <Carousel
         style={{marginTop:'40px'}}
         swipeable={false}
