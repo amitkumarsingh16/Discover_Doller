@@ -6,8 +6,7 @@ import './NavItem.css';
 
 
 const NavItem = ()=>{
-  const [data, setData] = React.useState(jsonData.categoryItem)
-  console.log(data);
+  const [data, setData] = React.useState(jsonData.menuItem);
     return(
           <div className="NavItemContainer">
           {data.map((item)=>{
@@ -15,14 +14,14 @@ const NavItem = ()=>{
              <div className="NavItemImg">
              <div className="menu_main_cont" style={{display:'flex',alignItems:'center'}}>
                 <h3 className="NavItemText">{item.name}</h3>
-                {item.Category[0].subCategory.length>0 && (
+                {item.menu[0].subMenuItems.length>0 && (
                   <div>
                     <div style={{display:'flex'}}><MdKeyboardArrowDown/></div>
                     <div className="menu_cont">
-                      {item.Category.map((itm)=>(
+                      {item.menu.map((itm)=>(
                         <div className="menu_category_item">
-                          <div className="category_name">{itm.Category_name}</div>
-                          <div className="subCategory_cont">{itm.subCategory.map((i)=>(
+                          <div className="category_name">{itm.menuItem}</div>
+                          <div className="subCategory_cont">{itm.subMenuItems.map((i)=>(
                             <div className="category_name">{i}</div>
                           ))}</div>
                         </div>

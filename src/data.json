@@ -1,32 +1,29 @@
 {
-    "categoryItem": [
+    "menuItem": [
       {
         "name": "Grocery",
-        "image": "assets/29327f40e9c4d26b.png",
-        "Category": [
+        "menu": [
           {
-            "Category_name": "",
-            "subCategory": []
+            "menuItem": "",
+            "subMenuItems": []
           }
         ]
       },
       {
         "name": "Mobile",
-        "image": "assets/22fddf3c7da4c4f4.png",
-        "Category": [
+        "menu": [
           {
-            "Category_name": "",
-            "subCategory": []
+            "menuItem": "",
+            "subMenuItems": []
           }
         ]
       },
       {
         "name": "Fashion",
-        "image": "assets/c12afc017e6f24cb.png",
-        "Category": [
+        "menu": [
           {
-            "Category_name": "Men Top Wear",
-            "subCategory": [
+            "menuItem": "Men Top Wear",
+            "subMenuItems": [
               "All",
               "Men's T-Shirts",
               "Men's Casual Shirts",
@@ -41,8 +38,8 @@
             ]
           },
           {
-            "Category_name": "Men's Bottom Wear",
-            "subCategory": [
+            "menuItem": "Men's Bottom Wear",
+            "subMenuItems": [
               "All",
               "Men's jeans",
               "Men's Trousers",
@@ -57,8 +54,8 @@
             ]
           },
           {
-            "Category_name": "Women Ethinic",
-            "subCategory": [
+            "menuItem": "Women Ethinic",
+            "subMenuItems": [
               "All",
               "Women Saree",
               "Women Kurta & Kurties",
@@ -73,8 +70,8 @@
             ]
           },
           {
-            "Category_name": "Women Western",
-            "subCategory": [
+            "menuItem": "Women Western",
+            "subMenuItems": [
               "All",
               "Women Saree",
               "Women Kurta & Kurties",
@@ -89,8 +86,8 @@
             ]
           },
           {
-            "Category_name": "Men Footwear",
-            "subCategory": [
+            "menuItem": "Men Footwear",
+            "subMenuItems": [
               "All",
               "Men's Sports Shoes",
               "Men's Casual Shoes",
@@ -105,8 +102,8 @@
             ]
           },
           {
-            "Category_name": "Women Footwear",
-            "subCategory": [
+            "menuItem": "Women Footwear",
+            "subMenuItems": [
               "All",
               "Women Flats",
               "Women Heels",
@@ -122,8 +119,8 @@
             ]
           },
           {
-            "Category_name": "Watches and Accessories",
-            "subCategory": [
+            "menuItem": "Watches and Accessories",
+            "subMenuItems": [
               "Men & Women Watches",
               "Men & Women Sunglasses",
               "Wallets",
@@ -140,8 +137,8 @@
             ]
           },
           {
-            "Category_name": "Watches and Accessories",
-            "subCategory": [
+            "menuItem": "Watches and Accessories",
+            "subMenuItems": [
               "Men & Women Watches",
               "Men & Women Sunglasses",
               "Wallets",
@@ -161,11 +158,10 @@
     },
     {
       "name": "Electronics",
-      "image": "assets/69c6589653afdb9a.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "Men Top Wear",
-          "subCategory": [
+          "menuItem": "Men Top Wear",
+          "subMenuItems": [
             "All",
             "Men's T-Shirts",
             "Men's Casual Shirts",
@@ -180,8 +176,8 @@
           ]
         },
         {
-          "Category_name": "Men's Bottom Wear",
-          "subCategory": [
+          "menuItem": "Men's Bottom Wear",
+          "subMenuItems": [
             "All",
             "Men's jeans",
             "Men's Trousers",
@@ -199,11 +195,10 @@
     },
     {
       "name": "Home",
-      "image": "assets/ab7e2b022a4587dd.jpg",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "Men Top Wear",
-          "subCategory": [
+          "menuItem": "Men Top Wear",
+          "subMenuItems": [
             "All",
             "Men's T-Shirts",
             "Men's Casual Shirts",
@@ -218,8 +213,8 @@
           ]
         },
         {
-          "Category_name": "Men's Bottom Wear",
-          "subCategory": [
+          "menuItem": "Men's Bottom Wear",
+          "subMenuItems": [
             "All",
             "Men's jeans",
             "Men's Trousers",
@@ -237,51 +232,46 @@
     },
     {
       "name": "Aplliances",
-      "image": "assets/0ff199d1bd27eb98.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "",
-          "subCategory": []
+          "menuItem": "",
+          "subMenuItems": []
         }
       ]
     },
     {
       "name": "Travel",
-      "image": "assets/71050627a56b4693.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "",
-          "subCategory": []
+          "menuItem": "",
+          "subMenuItems": []
         }
       ]
     },
     {
       "name": "Top Offers",
-      "image": "assets/f15c02bfeb02d15d.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "",
-          "subCategory": []
+          "menuItem": "",
+          "subMenuItems": []
         }
       ]
     },
     {
       "name": "Beauty ,Toys & More",
-      "image": "assets/dff3f7adcf3a90c6.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "",
-          "subCategory": []
+          "menuItem": "",
+          "subMenuItems": []
         }
       ]
     },
     {
       "name": "Two Wheelers",
-      "image": "assets/05d708653beff580.png",
-      "Category": [
+      "menu": [
         {
-          "Category_name": "",
-          "subCategory": []
+          "menuItem": "",
+          "subMenuItems": []
         }
       ]
     }
