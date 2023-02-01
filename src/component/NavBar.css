@@ -82,6 +82,7 @@
   font-weight: 500;
   color: #fff;
   margin-left: 42px;
+  cursor: pointer;
 }
 .DetailInfo{
   display: flex;

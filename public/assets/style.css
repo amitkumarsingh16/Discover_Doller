@@ -338,7 +338,7 @@
     margin-top: 25px;
 }
 .n .o div{
-    background-image: radial-gradient(#fff,#ffd6d6); 
+    background-image: radial-gradient(#666,#333)!important; 
     padding: 15px;
     border-radius: 20px;   
     transition: 0.5s;

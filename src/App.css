@@ -14,7 +14,7 @@
     letter-spacing: 0.4px;
 }
 .a{
-    background-image: radial-gradient(#fff,#ffd6d6);
+    background-image: radial-gradient(#666,#333);
     height: 100vh;
     box-sizing: border-box;
 }
@@ -339,16 +339,19 @@
 }
 .n .o p{
     width: 200px;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 18px;
 }
 .n .o img{
     border-radius: 50%;
     margin-top: 25px;
 }
 .n .o div{
-    background-image: radial-gradient(#fff,#ffd6d6); 
+    background-image: radial-gradient(#666,#333); 
+    color: #fff;
     padding: 15px;
-    border-radius: 20px;   
+    border-radius: 20px;  
+    font-size: 14px; 
     transition: 0.5s;
 }
 .n .o div:hover{
