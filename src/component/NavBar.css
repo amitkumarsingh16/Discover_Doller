@@ -1,0 +1,94 @@
+.main-container {
+  background-color: #333;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  padding-inline: 10vw;
+}
+.input-tag {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  height: 56px;
+}
+.input-tag input {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+  margin-left: 20px;
+}
+.SearchIcon {
+  position: absolute;
+  right: 20px;
+  color: #333;
+  font-weight: 600;
+  width: 20px;
+  height: 20px;
+}
+.input-tag input:focus {
+  outline: none;
+}
+.LoginBtn {
+  color: #000;
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 32px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+  margin-left: 25px;
+  font-size: 16px;
+  margin-top: 0!important;
+}
+.LoginBtn:hover{
+  background: #666;
+  border:none;
+  color: #fff;
+}
+.logo {
+  width: 76px;
+  display: grid;
+  grid-row-gap: 0;
+  font-size: 14px;
+}
+.FlipKartIcon {
+  width: 76px;
+}
+.PlusIcon {
+  width: 10px;
+  height: 10px;
+  font-weight: bold;
+}
+.ExplorePlusText {
+  color: #fff;
+  font-style: italic;
+  font-size: 11px;
+}
+.FlipkartInfoDetail {
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 42px;
+}
+.DetailInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#CartIcon{
+    margin-right: 10px;
+}
+
