@@ -6,6 +6,7 @@ import ImgSlider from './component/ImgSlider'
 import NavItem from './component/NavItem';
 import Footer from './component/Footer';
 import Card from './component/Card';
+import Product from "./component/Project"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
        <NavBar/>
        <NavItem/>
        <ImgSlider/>
+       <Product/>
        <Card/>
        <Footer/>
     </div>
